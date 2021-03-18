@@ -182,8 +182,8 @@ sarg = (f"""{wsta}
 Friday-Userbot Based On Telethon V{tv}
 Python Version : {platform.python_version()}
 Friday-Userbot Version : V{friday_version}
-Support Chat : @FridayChat
-Updates Channel : @FridaySupportOfficial
+Support Chat : @GangOfFriends
+Updates Channel : @GangOfFriendsChannel
 Total Clients : {total_clients}
 {strk}
 -------------------------------------------""")
