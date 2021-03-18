@@ -2,7 +2,7 @@
 .app <app_name> to fetch app details.
 Credits @MrConfused
 .appr <app_name>  to fetch app details with request link.
-  © [cHAuHaN](http://t.me/amnd33p)"""
+  © [Đ€Ş卄ΔĐ€€Ť卄 Ť卄ĪŞΔŘคŇΔ](http://t.me/DeshadeethThisarana)"""
 
 import bs4
 import requests
@@ -147,8 +147,8 @@ async def apkr(event):
             + app_link
             + "'>View in Play Store</a>"
         )
-        app_details += "\n\n<b>Download : </b> <a href='https://t.me/joinchat/JCu-H1NikiYDgNjpjPYd4A'>Request_Here</a>"
-        app_details += "\n\n===> @FridayOT <==="
+        app_details += "\n\n<b>Download : </b> <a href='https://t.me/gangoffriends'>Request_Here</a>"
+        app_details += "\n\n===> @GangOfFriends <==="
         await event.edit(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await event.edit("No result found in search. Please enter **Valid app name**")
